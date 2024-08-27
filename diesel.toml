@@ -1,0 +1,14 @@
+# For documentation on how to configure this file,
+# see https://diesel.rs/guides/configuring-diesel-cli
+
+[print_schema]
+file = "src/schema.rs"
+custom_type_derives = ["diesel::query_builder::QueryId", "Clone"]
+
+# [migrations_directory]
+# dir = "/home/loki/programs/rust/h-projects/dbt/migrations"
+
+
+
+# [database]
+# url = "mysql://root:qwerty@localhost:3306/canadian_pride_oil"
